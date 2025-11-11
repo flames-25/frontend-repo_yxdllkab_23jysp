@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="mt-4 backdrop-blur supports-[backdrop-filter]:bg-white/50 bg-white/70 border border-white/40 shadow-sm rounded-2xl">
           <div className="flex items-center justify-between px-4 py-3">
             <a href="#intro" className="text-xl font-semibold tracking-tight">
-              <span className="bg-gradient-to-r from-indigo-600 to-cyan-500 bg-clip-text text-transparent">YourName</span>
+              <span className="bg-gradient-to-r from-indigo-600 to-cyan-500 bg-clip-text text-transparent">Harshal Upadhye</span>
             </a>
             <nav className="hidden md:flex items-center gap-6">
               {navItems.map((item) => (

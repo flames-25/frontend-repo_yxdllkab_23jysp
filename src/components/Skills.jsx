@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion'
-import { Code, Palette, Database, Sparkles } from 'lucide-react'
+import { Code, Database, Cpu, Atom } from 'lucide-react'
 
 const skills = [
-  { name: 'React / Next.js', level: 90, icon: Code },
-  { name: 'TypeScript', level: 85, icon: Sparkles },
-  { name: 'UI/UX & Prototyping', level: 80, icon: Palette },
-  { name: 'APIs & Databases', level: 75, icon: Database },
+  { name: 'Python, C, Core Java', level: 80, icon: Code },
+  { name: 'HTML, CSS, JavaScript (Learning)', level: 70, icon: Code },
+  { name: 'Flask, Socket.IO', level: 65, icon: Database },
+  { name: 'Pandas, NumPy, LangChain, HuggingFace, FAISS', level: 60, icon: Atom },
+  { name: 'RFID, Arduino/Raspberry Pi', level: 55, icon: Cpu },
 ]
 
 export default function Skills() {

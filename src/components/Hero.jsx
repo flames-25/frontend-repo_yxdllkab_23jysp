@@ -17,7 +17,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900"
         >
-          Creative Developer
+          Harshal Upadhye
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="mt-5 max-w-2xl mx-auto text-lg text-slate-700"
         >
-          I build delightful, performant web experiences with React, TypeScript, and modern tooling.
+          2nd-year CSE student passionate about AI, web development, and building useful tech. Exploring RAG, chatbots, and full‑stack apps.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,6 +35,14 @@ export default function Hero() {
         >
           <a href="#projects" className="px-5 py-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 transition-colors">View Projects</a>
           <a href="#contact" className="px-5 py-3 rounded-xl bg-white/80 backdrop-blur border border-white/60 hover:bg-white transition-colors">Contact Me</a>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="mt-6 text-slate-600 text-sm"
+        >
+          Solapur, Maharashtra • +91 87677 17432 • harshal.upadhye70@gmail.com
         </motion.div>
       </div>
     </section>

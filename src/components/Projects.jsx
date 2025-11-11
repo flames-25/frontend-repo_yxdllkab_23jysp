@@ -2,25 +2,32 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    title: 'E-Commerce UI',
-    description: 'A modern storefront with shoppable micro-interactions and blazing-fast filtering.',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1200&auto=format&fit=crop',
-    link: '#',
-    tags: ['React', 'Tailwind', 'Stripe']
-  },
-  {
-    title: 'Analytics Dashboard',
-    description: 'Composable widgets, realtime charts, and role-based access control.',
+    title: 'University Query Assistant',
+    description: 'Role-based AI Telegram chatbot with RAG using LangChain + FAISS for contextual responses.',
     image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop',
     link: '#',
-    tags: ['Next.js', 'D3', 'Auth']
+    tags: ['LangChain', 'FAISS', 'Telegram']
   },
   {
-    title: '3D Landing',
-    description: 'Immersive hero with Spline and smooth scroll choreography.',
+    title: 'Bike Pool Ride-Sharing',
+    description: 'Full‑stack web app connecting riders and passengers with auth and realtime chat.',
     image: 'https://images.unsplash.com/photo-1526498460520-4c246339dccb?q=80&w=1200&auto=format&fit=crop',
     link: '#',
-    tags: ['Spline', 'Framer Motion']
+    tags: ['Flask', 'Socket.IO']
+  },
+  {
+    title: 'AI for Textile Waste',
+    description: 'AI system for textile waste classification and lifecycle analysis to reduce CO₂ impact.',
+    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1200&auto=format&fit=crop',
+    link: '#',
+    tags: ['Computer Vision', 'Sustainability']
+  },
+  {
+    title: 'RFID-Based Lock',
+    description: 'Hardware prototype for controlled access using RFID and actuator systems.',
+    image: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop',
+    link: '#',
+    tags: ['RFID', 'Arduino/RPi']
   }
 ]
 
@@ -30,7 +37,7 @@ export default function Projects() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-10 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">Project Showcase</h2>
-          <p className="mt-3 text-slate-600">Selected work featuring interactive UIs and thoughtful UX.</p>
+          <p className="mt-3 text-slate-600">Selected work across AI, web apps, and hardware.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
